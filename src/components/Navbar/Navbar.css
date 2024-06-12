@@ -1,0 +1,35 @@
+.navbar-bg{
+    z-index: 999;
+    border-bottom: 1px solid rgb(235, 235, 235,0.3)
+}
+
+.navbar-bg-white{
+    z-index: 999;
+    border-bottom: 1px solid rgb(235, 235, 235,0.3);
+    background-color: white;
+}
+
+.brand-logo{
+    width: auto;
+    height: 70px;
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255);
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-link{
+        color: black;
+    }
+    .nav-link:hover{
+        font-size: 20px;
+        color: black;
+    }
+}
+
